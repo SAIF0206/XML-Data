@@ -16,9 +16,15 @@ namespace XML.Controllers
 
         List<Book> books = new List<Book>()
         {
-            new Book(1,"Good Book", "A", "aa", new DateTime(), new DateTime()),
-            new Book(2,"Good Bookdcv", "Addd", "daa", new DateTime(), new DateTime()),
-            new Book(3,"Good Bssssook", "sssA", "asssa", new DateTime(), new DateTime()),
+            new Book(1,"Book 1", "Author 1", "Each morning when you wake up, play a few pump up songs before you start your day to get you going. You can listen to productivity music on Spotify to help you get going. By getting your mind in the right mindset, you can inch closer to motivating yourself. ", new DateTime(), new DateTime()),
+            new Book(2,"Book 2", "Author 2", "Each morning when you wake up, play a few pump up songs before you start your day to get you going. You can listen to productivity music on Spotify to help you get going. By getting your mind in the right mindset, you can inch closer to motivating yourself. " ,new DateTime(), new DateTime()),
+            new Book(3,"Book 3", "Author 3", "Each morning when you wake up, play a few pump up songs before you start your day to get you going. You can listen to productivity music on Spotify to help you get going. By getting your mind in the right mindset, you can inch closer to motivating yourself. ", new DateTime(), new DateTime()),
+             new Book(4,"Book 4", "Author 4", "Each morning when you wake up, play a few pump up songs before you start your day to get you going. You can listen to productivity music on Spotify to help you get going. By getting your mind in the right mindset, you can inch closer to motivating yourself. ", new DateTime(), new DateTime()),
+            new Book(5,"Book 5", "Author 5", "Each morning when you wake up, play a few pump up songs before you start your day to get you going. You can listen to productivity music on Spotify to help you get going. By getting your mind in the right mindset, you can inch closer to motivating yourself. " ,new DateTime(), new DateTime()),
+            new Book(6,"Book 6", "Author 6", "Each morning when you wake up, play a few pump up songs before you start your day to get you going. You can listen to productivity music on Spotify to help you get going. By getting your mind in the right mindset, you can inch closer to motivating yourself. ", new DateTime(), new DateTime()),
+             new Book(7,"Book 7", "Author 7", "Each morning when you wake up, play a few pump up songs before you start your day to get you going. You can listen to productivity music on Spotify to help you get going. By getting your mind in the right mindset, you can inch closer to motivating yourself. ", new DateTime(), new DateTime()),
+            new Book(8,"Book 8", "Author 8", "Each morning when you wake up, play a few pump up songs before you start your day to get you going. You can listen to productivity music on Spotify to help you get going. By getting your mind in the right mindset, you can inch closer to motivating yourself. " ,new DateTime(), new DateTime()),
+
         };
        
         [HttpGet]
